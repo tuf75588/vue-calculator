@@ -2,13 +2,16 @@
   "name": "calculator-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tuf75588.github.io/vue-calculator",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "gh-pages -d build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "element-ui": "^2.4.11",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.16.1",
     "vue": "^2.5.21"
   },
